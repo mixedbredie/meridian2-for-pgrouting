@@ -19,12 +19,13 @@ Merge the roads
 Load to the database
 --------------------
 
-+ Use the DB Manager in QGIS to load the data to PostGIS
-+ Optionally create schema: os_m2 (or use public)
-+ Create table: m2_roads
-+ Set primary key field: gid
-+ Set geometry field: geometry
-+ Set target SRID: 27700
++ Use the DB Manager in QGIS to load the data to PostGIS.  This takes a wee while as there are 1.25 million roads features.
++ Optionally create schema: **os_m2** (or use public)
++ Create table: **m2_roads**
++ Set primary key field: **gid**
++ Set geometry field: **geometry**
++ Set target SRID: **27700**
++ Check the box to create single part features rather than multipart.
 + Check box to create spatial index.
 
 Create a network table
